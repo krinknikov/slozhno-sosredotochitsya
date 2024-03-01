@@ -1,22 +1,22 @@
 :root {
   --rec-decor-visibility: visible;
-  --color-pink-1: #fff1f7;
-  --color-pink-2: #f1b2ce;
-  --color-pink-3: #ffc2e6;
-  --color-pink-4: #ff8dcb;
-  --color-purple-1: #db00ff;
-  --color-purple-2: #ff0070;
-  --color-purple-3: #ff007040;
-  --color-black-1: #000028;
-  --color-black-2: #353430;
-  --color-black-3: #35343040;
-  --text-color: var(--color-pink-2, #f1b2ce);
-  --brand-color: var(--color-purple-1, #db00ff);
-  --secondary-color: var(--color-purple-2, #ff0070);
-  --secondary-color-2: var(--color-purple-3, #ff007040);
-  --accent-color: var(--color-purple-2, #ff0070);
-  --highlight-color: var(--color-black-1, #000028);
+  --color-pink-page-background: #fff1f7; /*ex pink-1*/
+  --color-pink-text-dark: #f1b2ce; /*ex pink-2*/
+  --color-pink-brand: #ffc2e6;
+  --color-pink-accent: #ff8dcb;
+  --color-brand-dark: #db00ff;
+  --color-purple-titles-shadows: #ff0070;
+  --color-purple-border-dark: #ff007040;
+  --color-black-text-dark: #000028;
+  --color-black-text-auto: #353430;
+  --color-black-auto-border: #35343040;
+  --text-color: var(--color-pink-text-dark, #f1b2ce);
+  --brand-color: var(--color-pink-brand, #db00ff);
+  --secondary-color: var(--color-purple-titles-shadows, #ff0070);
+  --secondary-color-2: var(--color-purple-border-dark, #ff007040);
+  --accent-color: var(--color-purple-titles-shadows, #ff0070);
+  --highlight-color: var(--color-black-text-dark, #000028);
   --page-font-family: "IBM Plex mono", monospace;
   --page-background-image: url("../images/cover-image.png");
-  --page-background-color: var(--color-black-1, #000028);
+  --page-background-color: var(--color-black-text-dark, #000028);
 }
