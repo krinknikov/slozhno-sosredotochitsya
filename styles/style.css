@@ -182,7 +182,9 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  
 }
+
 
 .header__theme-menu-button {
   color: var(--secondary-color, #ff0070);
@@ -194,6 +196,8 @@
   cursor: pointer;
 }
 
+
+
 .header__theme-menu-button_active {
   border-color: currentColor;
   cursor: default;
@@ -202,7 +206,8 @@
 
 .header__theme-menu-button:hover {
   border-color: var(--secondary-color-2 #ff007040);
-}
+  outline: 1px solid var(--secondary-color, #ff0070)
+  }
 
 .header__theme-menu-button:focus {
   outline: 0;
