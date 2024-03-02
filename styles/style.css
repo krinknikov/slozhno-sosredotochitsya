@@ -1,8 +1,16 @@
 .shadow-decor {
   text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+  
 }
 
+.link-shadow-decor {
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+  text-decoration: none;
+}
 
+.link-shadow-decor:hover {
+  border-bottom: 1px solid var(--text-color, #353430);
+}
 
 
 .page {
