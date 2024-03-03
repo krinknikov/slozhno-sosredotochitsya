@@ -12,6 +12,10 @@
   border-bottom: 1px solid var(--text-color, #353430);
 }
 
+.link-shadow-decor:focus {
+  outline: 0;
+}
+
 
 .page {
   background-color: var(--page-background-color, #000028);
@@ -212,8 +216,8 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--secondary-color-2 #ff007040);
-  outline: 1px solid var(--secondary-color, #ff0070)
+  border-color: var(--secondary-color-2, #ff007040);
+  /*outline: 1px solid var(--secondary-color, #ff0070);*/
   }
 
 .header__theme-menu-button:focus {
